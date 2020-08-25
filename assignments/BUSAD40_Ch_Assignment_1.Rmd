@@ -1,0 +1,217 @@
+---
+title: "BUSAD40 - Business Statistics"
+author: "Your Name"
+date: "8/24/2020"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Chapter Assignment 1
+
+* Complete the following questions to earn full grade in this assignment.
+* Some of the questions requires students to show works to earn full credit.
+* After finished the assignment, knit the Markdown file into HTML file for submission.
+
+### Question 1
+
+Choose the most accurate answer from the table for problem #1 - 5.
+\
+
+|      {^^}       |      {^^}       |       {^^}      |           {^^}           |
+| --------------- | --------------- | --------------- | ------------------------ |
+|  population     |  sample         |  statistics     |  descriptive statistics  |
+|  continuous     |  observation    |  parameter      |  inferential statistics  |
+|  correlation    |  ratio          |  discrete       |  sample statistics       |
+|  nominal        |  ordinal        |  interval       |  experimental            |
+
+\
+
+1.	A researcher is interested in the sleeping habits of American college students.  A group of 50 students is interviewed and the researcher finds that these students sleep an average of 6.7 hours per day.  For this study, the average of 6.7 hours is an example of a(n) ___________________.
+
+2.	Statistical techniques that summarize, organize, and simplify data are classified as ___________________.
+
+3.	A research study comparing alcohol use for college students in the United States and Canada reports that more Canadian students drink but American student drink more (Kuo, Adlaf, Lee, Gliksman, Demers, and Wechsler, 2002).  This study used _____________________ research design.
+
+4.	A researcher studies the factors that determine the number of children that couples decide to have.  The variable, number of children, is an example of a ____________________ variable.
+
+5.	The teacher in a communications class asks students to identify their favorite reality television show.  The different television shows make up a _____________________ scale of measurement.
+
+
+### Question 2
+
+For the following set of scores, find the value of each expression:
+
+Set x: 3, 2, 5, 1, 3
+
+a. $\sum(x^2)$
+
+Ans: _________________________
+
+b. $(\sum(x))^2$
+
+Ans: _________________________
+
+c. $\sum(x - 1)$
+
+Ans: _________________________
+
+d. $\sum(x - 1)^2$
+
+Ans: _________________________
+
+
+### Question 3
+
+For the following sample of n = 10 scores:
+
+Scores:  2, 3, 4, 4, 5, 5, 5, 6, 6, 7
+
+a.	Assume that the scores are measurements of a discrete variable and find the median.
+
+Ans: ________________________________________
+
+b.	Assume that the scores are measurements of a continuous variable and find the median by locating the precise midpoint of the distribution.
+
+Ans: ________________________________________
+
+
+### Question 4
+
+The “mean” generally is considered to be the best of the three measures of central tendency.  However, there are specific situations in which the mode and the median are used.  Identify which of the following situation is appropriate to measure the central tendency by the **mode** or the **median**.
+
+|  Situation                              |  Appropriate Measure (Mode / Median)  |
+|  :-----------------------------------:  |  :----------------------------------: |
+|  Nomial Scales                          |  Ans:                                 |
+|  Discrete Variable                      |  Ans:                                 |
+|  Extreme Scores or Skewed Distribution  |  Ans:                                 |
+|  Ordinal Scales                         |  Ans:                                 |
+
+
+### Question 5
+
+Calculate the mean and SS (sum of squared deviations) for each of the following samples. **Show Work**
+
+Sample A:  1,  3,  4,  0
+
+Sample B:  2,  5,  0,  3
+
+Sample A:  Ans: _____________________________
+
+
+
+Sample B:  Ans: _____________________________
+
+
+
+### Question 6
+
+For the following sample data, compute the variance and standard deviation.  The scores are:  **Show Work**
+
+10,  7,  6,  10,  6,  15
+
+a.	Compute SS, the sum of squared deviations 
+
+Ans: ___________________
+
+
+b.	Compute the sample variance
+
+Ans: ___________________
+
+
+c.	Compute the sample standard deviation
+
+Ans: ____________________
+
+
+### Question 7
+
+For the following set of scores:  1,  4,  3,  5,  7
+
+a.	If the scores are a **population**, what are the variance and standard deviation? **Show Work**
+
+Answer: ___________________________
+
+b.	If the scores are a **sample**, what are the variance and standard deviation?  **Show Work**
+
+Answer: ___________________________
+
+
+### Question 8
+
+According to the following data set, identify **data type** and **scale of measure** for each variable (column).
+
+|  ID    |  Gender  |  Age   |  Race     |  Size  |  Zip Code |  Sales     |  Rating |
+|  :---: |  :----:  |  :---: |  :------: |  :---: |  :-----:  |  :------:  |  :---:  |
+|  A001  |  M       |  38    |  White    |  L     |  94112    |  $1232.25  |  4.3    |
+|  A034  |  F       |  22    |  Black    |  M     |  95623    |  $625.33   |  4.8    |
+|  B022  |  M       |  25    |  Asia     |  S     |  93882    |  $225.50   |  3.1    |
+|  A109  |  M       |  20    |  Asia     |  M     |  92998    |  $2290.12  |  4.9    |
+|  C041  |  F       |  41    |  Hispanic |  L     |  93112    |  $822.30   |  2.1    |
+|  E301  |  F       |  33    |  Black    |  XL    |  94177    |  $442.90   |  3.2    |
+|  J231  |  M       |  32    |  White    |  S     |  93009    |  $652.20   |  3.5    |
+
+**Example:**
+
+Gender: Discrete Data Type /  Nominal Scale
+
+Age:  Ans: ___________________________________
+
+Race:  Ans: ____________________________________
+
+Size:  Ans: ____________________________________
+
+Zip Code:  Ans: ____________________________________
+
+Sales:  Ans: ____________________________________
+
+Rating:  Ans: ____________________________________
+
+
+### Question 9
+
+An Amazon seller received a rating report for his new design cell phone case.  The rating is classified into the following scales:
+
+|  Score  |  Rating Value        |
+|  :---:  |  :----------------:  |
+|  1      |  Poor Quality        |
+|  2      |  Not Satisfy         |
+|  3      |  Acceptable Quality  |
+|  4      |  Satisfy             |
+|  5      |  Great Product       |
+
+The report includes the following 24 rating results.
+
+| Rating  | Rating  | Rating  | Rating  |
+|  :---:  |  :---:  |  :---:  |  :---:  |
+|  2      |  4      |  5      |  4      |
+|  4      |  3      |  5      |  3      |
+|  3      |  2      |  3      |  2      |
+|  2      |  4      |  2      |  1      |
+|  4      |  4      |  3      |  3      |
+|  4      |  5      |  3      |  4      |
+
+Complete the following Frequencey Distribution Table:
+
+|  Rating              |  Frequency  |  Relative Frequency  |  Percent Frequency  |
+|  :----------------:  |  :-------:  |  :----------------:  |  :---------------:  |
+|  Poor Quality        |  Ans:       |  Ans:                |  Ans:               |
+|  Not Satisfy         |  Ans:       |  Ans:                |  Ans:               |
+|  Acceptable Quality  |  Ans:       |  Ans:                |  Ans:               |
+|  Satisfy             |  Ans:       |  Ans:                |  Ans:               |
+|  Great Quality       |  Ans:       |  Ans:                |  Ans:               |
+|  Total:              |  24         |  1.00                |  100                |
+
+
+### Question 10
+
+As discussed in the class, the measures the central tendency and variability are useful statistics to understand the data. For instance, a company finds out the average age of their consumers is 35 years old with standard deviation 1.5. How do these measures provide business insight to the company? Write a paragraph or two to support your answer.
+
+Ans: ____________________________________________
