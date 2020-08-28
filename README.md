@@ -1,4 +1,4 @@
-# BUSAD40_Business_Statistics_with_R
+# BUSAD40 Business Statistics with R
 Saint Mary's College of California / College of Economics and Business Administration
 
 ## Topics:
