@@ -4,27 +4,36 @@ Saint Mary's College of California / College of Economics and Business Administr
 ## Topics:
 
 ### Descriptive Statistics (Tabular Format)
-- Using tables to summarize categorical data
-- Using tables to summarize quantitative data
+- Use tables to summarize categorical data
+- Use tables to summarize quantitative data
 
 ### Descriptive Statistics (Graphical Format)
-- Using bar chart to present categorical data
-- Using histogram to present quantitative data
-- Using scatter plot and boxplot to present bivariate data
+- Use bar chart to present categorical data
+- Use histogram to present quantitative data
+- Use scatter plot and boxplot to present bivariate data
 
 ### Probability Distribution
 - Discover the normal distribution with R
 - Learn to use dnorm, pnorm, qnorm, and rnorm functions in R
 
 ### Sampling Distribution
-- Demonstrates Central Limit Theorem with R
+- Demonstrate Central Limit Theorem with R
 - Learn to use dt, pt, qt, and rt functions in R
 
 ### Hypothesis Testing
+- Construct Hypothesis Testing for Business Applications
+- Perform t test and interpret the results
+- Make conclusion of the hypothesis test
 
 ### Simple Linear Regression 
+- Build Simple Linear Regression Model in R
+- Print the Model Summary Output
+- Interpret the Estimated Coefficient
 
 ### Multiple Linear Regression
+- Build Multiple Linear Regression Model in R
+- Print the Model Summary Output
+- Interpret the Estimated Coefficients
 
 Resource: [Cookbook for R](http://www.cookbook-r.com/) | [R Markdown](https://rmarkdown.rstudio.com/)
 
