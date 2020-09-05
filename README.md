@@ -15,6 +15,8 @@ Saint Mary's College of California / College of Economics and Business Administr
 ### Probability Distribution
 - Discover the normal distribution with R
 - Learn to use dnorm, pnorm, qnorm, and rnorm functions in R
+- Discover the binomial distribution with R
+- Learn to use dbinom, pbinom, qbinom, and rbinom functions in R
 
 ### Sampling Distribution
 - Demonstrate Central Limit Theorem with R
