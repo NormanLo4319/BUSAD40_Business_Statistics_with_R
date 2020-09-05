@@ -4,21 +4,23 @@
 
 # Student's t Distribution
 # Setup the x and y values
-mean=0
-sd=1
-x <- seq(-4,4,length=10000)*sd+mean
-y <- dt(x,df=29)
+mean = 0
+sd = 1
+x <- seq(-4, 4, length = 10000) * sd + mean
+y <- dt(x, df = 29)
 
 # Plot the t distribution and labels
-plot(x, y, type="n", xlab="t statistic score", ylab="Density",
-     main="Student's t Distribution (df=29)", axes=FALSE)
+plot(x, y, type = "n", xlab = "t statistic score", ylab = "Density",
+     main = "Student's t Distribution (df=29)", axes = FALSE)
 lines(x, y)
-abline(v=2, col="blue")
-abline(v=-2, col="blue")
-axis(1, at=seq(-4, 4, 1), pos=0)
+abline(v = 2, col = "blue")
+abline(v = -2, col = "blue")
+axis(1, at = seq(-4, 4, 1), pos = 0)
 
+#-------------------------------------------------------------------------#
 
-# Calculate the t statistic score
+# Calculate the Student's t Statistic:
+
 # Given the population mean = 23.2, sample mean = 21.8,
 # sample standard deviation = 5.8, and sample size = 36
 t <- (21.8 - 23.2) / (5.8 / sqrt(36))
@@ -35,6 +37,12 @@ t
 m <- 2.5 * (8.2 / sqrt(40)) + 55
 m
 
+#------------------------------------------------------------------------#
+
+# Student's t Distribution Function:
+
+# pt() function returns P(X < x) with given t statistic and sample size
+
 # Calculate the probability of t distribution
 # Given the population mean = 23.2, sample mean = 21.8,
 # sample standard deviation = 5.8, and sample size = 36,
@@ -43,7 +51,7 @@ m
 t <- (21.8 - 23.2) / (5.8 / sqrt(36))
 t
 # Step 2: Calculate the p value (left tail)
-pt(t, df=(36-1))
+pt(t, df = (36 - 1))
 
 
 # Given the population mean = 155.7, sample mean = 160.6,
@@ -53,7 +61,8 @@ pt(t, df=(36-1))
 t <- (160.6 - 155.7) / (14.8 / sqrt(68))
 t
 # Step 2: Calculate the p value (right tail)
-1 - pt(t, df=(68-1))
+1 - pt(t, df = (68 - 1))
+
 
 # What is the probability randomly select 68 sample with mean between 150 to 160?
 # Step 1: Calculate the t statistics
@@ -61,69 +70,35 @@ upt <- (160 - 155.7) / (14.8 / sqrt(68))
 lowt <- (150 - 155.7) / (14.8 / sqrt(68))
 
 # Step 2: Calculate the p value between the two locations
-up <- pt(upt, df=67)
-low <- pt(lowt, df=67)
+up <- pt(upt, df = 67)
+low <- pt(lowt, df = 67)
 up - low
 
 
-# Hypothesis Testing
+# qt() returns the inverse c.d.f. of the student t distribution
+# Find the t-score of the 95th quantile of the student t distribution with df = 20
+qt(0.95, df = 20, lower.tail = TRUE)
 
-# Simulate a population data for sales of a company.
-sales <- rnorm(1000, mean = 1250, sd = 158)
-sample.sales <- sample(sales, 100)
+# Find the t-score of the 99th quantile of the student t distriubtion with df = 60
+qt(0.99, df = 100, lower.tail = TRUE)
 
-# Null Hypothesis: Sample Mean = Population Mean
-# Alternative Hypothesis: Sample mean not equal population mean
-# Alpha: 0.05
-
-# Calculate the mean and sd for the population and sample
-salesMean <- mean(sales)
-sample.salesMean <- mean(sample.sales)
-sample.salessd <- sd(sample.sales)
-n <- length(sample.sales)
-
-# What is the probability that the sample mean differs from the population mean
-
-# Step 1: Calculate the t statistic
-t <- (sample.salesMean - salesMean) / (sample.salessd / sqrt(n))
-
-# Step 2: Calculate the p value
-p <- 2 * (1 - pt(t, df=(n-1)))
-p
-
-# Conclusion: At 5% significant level, we failed to reject the null hypothesis,
-# so the sample mean is not statisticall significantly differs to the population mean
-
-# Alternative Solution: t.test() function
-t.test(sample.sales, mu = salesMean)
+# Find the 95% confident intervals of the student t distribution with df = 45
+qt(0.975, df = 45, lower.tail = TRUE)
+qt(0.975, df = 45, lower.tail = FALSE)
 
 
-# Create Inference Graph
-# Import the library MASS
-# install.packages("MASS")
-library(MASS)
-# install.packages("gginference")
-library(gginference)
+# rt() function generates a vector of random variables that follow a student t distribution
+# Generate a vector of 1000 random variables that follow t distribution with df = 40
+narrow <- rt(1000, df = 40)
 
-# Calculate the mean of Height from the survey data set
-h <- na.omit(survey$Height)
-pm <- mean(h)
+# Generate a vector of 1000 random variables that follow t distribution with df = 5
+wide <- rt(1000, df = 5)
 
-# Draw 30 random samples from the Height data
-h.sample <- sample(h, 30)
-sm <- mean(h.sample)
+# Plot the two simulated data sets
+par(mfrow = c(1, 2))
+hist(narrow, breaks = 50, xlim = c(-6, 4), main = "t Distriubtion, df = 40")
+hist(wide, breaks = 50, xlim = c(-6, 4), main = "t Distriubtion, df = 5")
 
-# Perform a two tails t test on the random samples
-result <- t.test(h.sample, mu = pm)
-result
-
-# Plot the result
-ggttest(result)
-
-# Perform an one tail test on the random samples
-result <- t.test(h.sample, mu=avg, alternative="greater", conf.level=0.95)
-result
-
-# Plot the result
-ggttest(result)
-
+# dt() function return the value of the probability density function (p.d.f.) of the student t distribution
+# Find the value of the student t distribution pdf at t = 0 with 20 degrees of freedom
+dt(0, df = 20)
