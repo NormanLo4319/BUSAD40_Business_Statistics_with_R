@@ -1,0 +1,165 @@
+---
+title: "BUSAD40 R Assignment 3"
+author: "Your Name"
+date: "8/24/2020"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Assignment 3
+
+* In this assignment, we are going to apply some of the build in data set in R for descriptive statistics analysis.
+* To earn full grade in this assignment, students need to comlete the coding tasks for each questions to get the final result.
+* After finished all the questions, knit the document into HTML format for submission.
+
+### Question 1
+
+Given the following information, calculate the z score in each case. 
+
+a. $\mu$ = 46, $\sigma$ = 3.4, $\bar{x}$ = 40, $s$ = 5.6, $n$ = 58
+
+```{r}
+# Enter your code here!
+
+
+
+```
+
+b. $\mu$ = 154, $\sigma$ = 11.6, $\bar{x}$ = 164, $s$ = 22.4, $n$ = 120
+
+```{r}
+# Enter your code here!
+
+
+
+```
+
+
+### Qustion 2
+
+Given the following information, calculate the t statistic in each case.
+
+a. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
+
+```{r}
+# Enter your code here!
+
+
+
+```
+
+b. $\mu$ = 86.2, $\bar{x}$ = 82.4, $s$ = 12.7, $n$ = 62
+
+```{r}
+# Enter your code here!
+
+
+
+```
+
+### Question 3
+
+Calculate the confident intervals in each of the following case.
+
+a. $\mu$ = 46, $\sigma$ = 3.4, $\bar{x}$ = 40, $s$ = 5.6, $n$ = 58
+
+```{r}
+# Enter the code here!
+
+
+
+```
+
+b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
+
+```{r}
+# Enter your code here!
+
+
+
+```
+
+### Question 4
+
+Calculate the p value in each of the following case.
+
+a. $\mu$ = 46, $\sigma$ = 3.4, $\bar{x}$ = 40, $s$ = 5.6, $n$ = 58
+
+```{r}
+# Enter the code here!
+
+
+
+```
+
+b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
+
+```{r}
+# Enter your code here!
+
+
+
+```
+
+### Question 5
+
+In a tech company, a project manager is planning on running an online promotion, whcih offers a 50% discount pomotion code on their service for the first three months. The manager projects to at least \$500 revenue per account. The previous pomotion events shows the average revenue per account is \$488 with standard deviation \$52 and it's normally distributed. Suppose the manager plans to starts with 100 existing accounts to send them the code and evaluate the effectiveness of the promotion.
+
+a. Create the 95% confidence intervals to demonstrates the potential return from this trial.
+
+b. Create a null hypothesis ($\bar{x} \geq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this is an one-sided test.
+
+c. Make a conclusion about this test.
+
+```{r}
+# Enter your code here!
+# Part a
+
+
+# Part b
+
+
+# Part c
+
+
+
+```
+
+#### Conclusion:
+
+Ans:
+
+### Question 6
+
+Suppose the US population average height is 64.68 inches and we would like to test if players in the WBA league is statistically higher than an average US citizen at 5% significant level. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement from the test.
+
+$H_o: \mu_{WNBA} \leq \mu_{US}$  
+$H_a: \mu_{WNBA} > \mu_{US}$  
+$\alpha = 0.05$
+
+```{r, echo=FALSE}
+# Import the data
+wnba <- read.csv("data/wnba_data.csv")
+```
+```{r}
+# Enter your code here!
+
+
+
+
+
+
+
+
+```
+
+#### Conclusion:
+
+Ans: 

@@ -1,0 +1,110 @@
+---
+title: "BUSAD40 - Business Statistics"
+author: "Your Name"
+date: "8/24/2020"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Chapter Assignment 3
+
+* Complete the following questions to earn full grade in this assignment.
+* Some of the questions require students to show works to earn full credit.
+* After finished the assignment, knit the Markdown file into HTML file for submission.
+
+### Question 1
+
+When is the following situation we can apply **normal distriubtion** or **student's t distribution** for hypothesis testing? Only report which distribution should be used, don't need to solve the problem.
+
+1. Data were collected onthe amount spent by 64 customers for lunch at a major Huston restaurant.  Base upon past studies the population standard deviation is known wth $\sigma$ = \$6. Develop a 99% confidence interval estimate of the mean amount spent for lunch. 
+
+Ans: 
+
+2. A simple survey of 54 discount brokers showed that the mean price charged for a trade of 100 share at \$50 per share was \$33.77. The survey is conducted annually. Witht he historical data available, assume a known population stardard deviation of \$15. Develop a 95% confidence interval for the mean price chared by discount brokers for a trade of 100 shares at $50 per share.
+
+Ans:
+
+3. The 92 million Americans of age 50 and over control 50 percent of all discretionary income.  AARP estimates taht the average annual expenditure on restaurants and carryout food was \$1,873 for individuals in this age group.  Suppose the estimate is based on a sample of 80 persons and that the sample standard deviation is \$550. What is the 95% confident interval for the populationmean amount spent on restaurants and carryout food?
+
+Ans:
+
+4. Studies show that massage therapy has a variety of health benefits and it is not too expensive.  A sample of 10 typical one-hour massage therapy sessions showed an average charge of \$59. The population standard deviation for a one-hour session is $\sigma$ = \$5.50. Using 95% confidence, what is the margin of error?
+
+Ans:
+
+5. In an attempt to assess total daily travel taxes invarious cities, the Global Business Travel Association conducted a study of daily travel taxes on lodging, rental car, and meals. The data contained a a data file are consistent with the findings of taht study for business travel to Chicago. Assume the population standard deviation is known to be \$8.50 and develop a 95% confidence interval of the population mean total daily travel taxes for Chicago.
+
+Ans: 
+
+### Question 2
+
+Costs are rising for all kinds of medical care. The mean monthly rent at assisted-living facilities was reported to have increased 17% over the last five years to \$3,486. Assume this cost estimate is based on a sample of 120 facilities and, from past studies, it can be assumed that population standard deviation is $\sigma$ = \$650. (Show Work!)
+
+a. Develop a 90% confidence interval estimate of the population mean monthly.
+
+Ans:
+
+b. Develop a 95% confidence interval estimate of the population mean monthly.
+
+Ans:
+
+c. Develop a 99% confidence interval estimate of the population mean montly.
+
+Ans:
+
+d. What happens to the width of the confidence interval as the confidence level is increased?  Does this seem reasonable?  Explain.
+
+Ans:
+
+
+### Question 3
+
+In a study entitled How Undergraduate Students Use Credit Cards, it was reported that undergraduate students have a mean credit card balance of \$3,173. This figure was an all-time high and had increased 44% over the previous five years. Assume that a current study is being conducted to determine if it can be concluded that the mean credit card balance for undergraudate students has continued to increase compared to the orginal report. Based on previous studies use a population standard deviation $\sigma$ = \$1,000. (Show Work!)
+
+a. State the null and alterantive hypotheses.
+
+Ans:
+
+$H_0$: 
+
+$H_a$: 
+
+b. What is the p-value for a smaple of 180 undergraduate students with a sample mean credit card balance fo \$3,325?
+
+Ans:
+
+c. Using a 0.05 level of significance, what is your conclusion?
+
+Ans:
+
+
+### Question 4
+
+According to the Vivino website, teh mean price for a bottle of red wine that scores 4.0 or higher on the Vivino Rating System is \$32.48. A new England-based lifestyle magazine wants to determine if red wines of the same quality are less expensive in Providence, and it has collected prices for 56 randomly selected red wines of similar quality from the wine stores throughout Providence. The mean and standard deviation for this sample are \$30.15 and \$12, respectively. (Show Work!)
+
+a. Develop appropriate hypotheses for a test to determine whether the sample data support the conclusion that the mean price in Providence for a bottle of red wine that scores 4.0 or higher on the Vivino Rating System is less than the population mean of \$32.48.
+
+Ans:
+
+$H_0$: 
+
+$H_a$:
+
+b. Using the sample from the 56 bottles, what is the p-value?
+
+Ans:
+
+c. At $\alpha$ = 0.05, what is your conclusion?
+
+Ans:
+
+d. Repeat the preceding hypothesis test using the critical value approach.
+
+Ans:
