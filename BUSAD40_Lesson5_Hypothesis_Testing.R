@@ -43,21 +43,21 @@ library(gginference)
 
 # Calculate the mean of Height from the survey data set
 h <- na.omit(survey$Height)
-pm <- mean(h)
+mu <- mean(h)
 
 # Draw 30 random samples from the Height data
 h.sample <- sample(h, 30)
 sm <- mean(h.sample)
 
 # Perform a two tails t test on the random samples
-result <- t.test(h.sample, mu = pm)
+result <- t.test(h.sample, mu = mu)
 result
 
 # Plot the result
 ggttest(result)
 
 # Perform an one tail test on the random samples
-result <- t.test(h.sample, mu=avg, alternative="greater", conf.level=0.95)
+result <- t.test(h.sample, mu = mu, alternative = "greater", conf.level = 0.95)
 result
 
 # Plot the result
