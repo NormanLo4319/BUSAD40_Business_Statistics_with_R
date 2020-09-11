@@ -2,7 +2,7 @@
 Saint Mary's College of California / College of Economics and Business Administration.  
 An introduction to statistical concepts used to assist in making decisions under conditions of uncertainty. Topics include the collection and analysis of data, probability and probability distributions, hypothesis testing, linear regression, and correlation.
 
-## Topics:
+## Contents:
 
 ### Descriptive Statistics (Tabular Format)
 - Use tables to summarize categorical data
