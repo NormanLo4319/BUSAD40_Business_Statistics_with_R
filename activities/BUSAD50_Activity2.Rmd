@@ -1,0 +1,143 @@
+---
+title: "BUSAD40 - Business Statistics"
+subtitle: "Online Activity 2"
+author: "Your Name"
+date: "8/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Question 1
+
+Using **mtcars** data set in R, please answer the following questions.
+
+```{r}
+# Loading the data
+data(mtcars)
+
+# Head of the data set
+head(mtcars)
+```
+
+a. Report the number of variables and observations in the data set.
+
+```{r}
+# Enter your code here!
+
+
+# Answer:
+print("There are total of _____ variables and _____ observations in this data set.")
+```
+
+***
+
+b. Print the summary statistics of the data set and report how many discrete and continuous variables are in the data set.
+
+```{r}
+# Enter your code here!
+
+
+# Answer:
+print("There are _____ discrete variables and _____ continuous variables in this data set.")
+```
+
+***
+
+c. Calculate the mean, variance, and standard deviation for the variable **hp** and assign them into variable names m, v, and s. Report the results in the print statement.
+
+```{r}
+# Enter your code here!
+
+
+# print(paste("The average horsepower from this data set is ",  , " with variance ",  , " and standard deviation",  , "."))
+```
+
+***
+
+d. Create two tables to summarize 1) average horsepower for each engine type and 2) the standard deviation of horsepower for each engine type.
+
+```{r}
+# Enter your code here!
+
+
+```
+
+***
+
+e. Create a crosstab that shows the number of observations belong to each engine and transmission class combinations. The table should shows how many observations given the car has v-shaped engine with automatic transmission, straight engine with manual tansimission, etc. Report which combination is recorded in this data set the most and how many observation for this type of car.
+
+```{r}
+# Enter your code here!
+
+
+print("The most common car type in this data set is a car with ______ engine and _____ gears. There are total of _____ cars belong to this specification in the data set.")
+```
+
+***
+
+f. Using the **mtcars** data set, plot the histogram for the column **hp** with 10 breaks. Give labels to the titel, x-axis, and y-axis on the graph. Report the most observed mpg class from the data set.
+
+```{r}
+# Enter your code here!
+
+
+print("Most of the cars in this data set are in the class of _________ horsepower.")
+```
+
+***
+
+g. Using the **mtcars** data set, plot the bar chart for the column **gear**. Give labels to the titel, x-axis, and y-axis on the graph. Write a conclusion about the finding.
+
+```{r}
+# Enter your code here!
+
+
+```
+
+Conclusion:
+
+Ans: 
+
+***
+
+h. Using the **USArrests** data set, create a pairs plot to display the correlations between the variables in the data set. Plot the scatter plot graph of **Murder** and **Assault**. Give labels to the titel, x-axis, and y-axis on the graph. Write a paragraph to summarize your results from both plots.
+
+```{r}
+# Load the data set
+data("USArrests")
+
+# Head of the data set
+head(USArrests)
+
+# Enter your code here!
+
+
+```
+
+***
+
+i. Download the housing data set from www.jaredlander.com and find out what explains the housing prices in New York City.
+
+```{r, echo=FALSE}
+# Load and clean the housing data set 
+download.file(url='https://www.jaredlander.com/data/housing.csv',
+              destfile='data/housing.csv', mode='wb')
+housingData <- read.csv('data/housing.csv')
+housingData <- subset(housingData, 
+                      select = c("Neighborhood", "Market.Value.per.SqFt", "Boro", "Year.Built"))
+housingData <- na.omit(housingData)                   
+```
+
+Create your own descriptive statistics and aggregation tables to summarize the data set and find any meanful results between different variables in the data set.
+
+```{r}
+# Head of the cleaned data set
+head(housingData)
+
+# Enter your code here!
+
+
+```
