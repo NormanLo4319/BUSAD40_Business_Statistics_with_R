@@ -1,0 +1,66 @@
+---
+title: "BUSAD40 - Business Statistics"
+subtitle: "Online Activity 3"
+author: "Your Name"
+date: "8/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Question 1
+
+Given the simulated normally distributed data. Answer the following questions with your code.
+
+a. Plot a histogram to show the distribution of the simulated data.
+
+b. Assign the mean of the data set to **m** and standard deviation to **sd**.
+
+c. Find the probability for randomly select a score **below 30** from this simulated data. P(X<30)
+
+d. Find the probability for randomly select a score **above 50** from this simulated data. P(X>50)
+
+e. Find the probability for randomly select a score **between 30 and 50** from the simulated data. P(30<X<50)
+
+f. What is the score that is at the **80th percentile** of this data? P(X < x) = 0.8
+
+```{r}
+# Simulate a normally distributed data set
+n <- rnorm(5000, mean = 42, sd = 5)
+
+# Enter your code here!
+# Part a
+
+
+
+# Part b
+
+
+
+# Part c
+
+
+
+# print(paste("The probabability to randomly select a score below 100 is ", ))
+
+# Part d
+
+
+
+# print(paste("The probabability to randomly select a score above 150 is ", ))
+
+# Part e
+
+
+
+# print(paste("The probabability to randomly select a score between 110 and 130 is ", ))
+
+# Part f
+
+
+
+# print(paste("The score that is at 90th percentile in the data set is ", ))
+
+```
