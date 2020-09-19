@@ -3,7 +3,7 @@ Saint Mary's College of California / College of Economics and Business Administr
 An introduction to statistical concepts used to assist in making decisions under conditions of uncertainty. Topics include the collection and analysis of data, probability and probability distributions, hypothesis testing, bivariate correlation, and linear regression analysis.
 
 ### Textbook:
-This course is based on the chapter material covered in the Statistics for Business & Economics, 14e, written by Anderson, Sweeney, Williams, Camm, Cochran, Fry, and Ohlmann.
+This course is based on the textbook, Statistics for Business & Economics, 14e, written by Anderson, Sweeney, Williams, Camm, Cochran, Fry, and Ohlmann.
 
 <img src="./images/textbook.png" width="180" height="240">
 
