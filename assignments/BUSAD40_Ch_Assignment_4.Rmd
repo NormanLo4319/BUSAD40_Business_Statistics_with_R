@@ -1,0 +1,140 @@
+---
+title: "BUSAD40 - Business Statistics"
+author: "Your Name"
+date: "8/24/2020"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Chapter Assignment 4
+
+* Complete the following questions to earn full grade in this assignment.
+* Some of the questions require students to show works to earn full credit.
+* After finished the assignment, knit the Markdown file into HTML file for submission.
+
+### Question 1
+
+Given are five observations for two variable, x and y.
+
+|   y   |   x   |
+| :---: | :---: |
+|   3   |   1   |
+|   7   |   2   |
+|   5   |   3   |
+|   11  |   4   |
+|   14  |   5   |
+
+a. Calculate the mean for x and y. (Show Work!)
+
+$\bar{x}$ = 
+
+
+$\bar{y}$ =
+
+
+
+b. Calcualte and fill out the rest of the statistics in the table.
+
+| $x_i-\bar{x}$ | $y_i-\bar{y}$ | $(x_i-\bar{x})(y_i-\bar{y})$ | $(x_i-\bar{x})^2$ | 
+|  :---:  |  :---:  |  :---:  |  :---:  |
+|   -2    |   -5    |   10    |   4     |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+
+c. Calculate the estimated slope of the regression model. (Show Work!)
+
+$\beta_1$ = 
+
+
+d. Calculate the estimated y-intercept of the regression model. (Show Work!)
+
+$\beta_0$ = 
+
+
+e. Write out the estimated regression equation fitting the data. 
+
+Ans:
+
+
+f. Complete the following table:
+
+| $\hat{y}_i$ | $(y_i-\hat{y}_i)^2$ | $(y_i-\bar{y})^2$ | $(\hat{y_i}-\bar{y})^2$ |
+|  :---:  |  :---:  |  :---:  |  :---:  |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+
+
+g. Calculate the Residual Sum of Squares, Total Sum of Squares, and Explained Sum of Squares with the results from part f.
+
+Residual Sum of Squares = 
+
+Total Sum of Squares =
+
+Explained Sum of Squares =
+
+
+***
+
+### Question 2
+
+Given the following summary output, answer each of the question in this problem:
+
+```{r}
+#Call:
+#lm(formula = medv ~ lstat, data = Boston)
+
+#Residuals:
+#    Min      1Q  Median      3Q     Max 
+#-15.168  -3.990  -1.318   2.034  24.500 
+
+#Coefficients:
+#            Estimate Std. Error t value Pr(>|t|)    
+#(Intercept) 34.55384    0.56263   61.41   <2e-16 ***
+#lstat       -0.95005    0.03873  -24.53   <2e-16 ***
+#---
+#Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+#Residual standard error: 6.216 on 504 degrees of freedom
+#Multiple R-squared:  0.5441,	Adjusted R-squared:  0.5432 
+#F-statistic: 601.6 on 1 and 504 DF,  p-value: < 2.2e-16
+```
+```{r, echo=FALSE}
+library(MASS)
+plot(medv ~ lstat, Boston, 
+     main = "Housing Values in Suburbs of Boston",
+     xlab = "Lower Status of the Population (Percent)",
+     ylab = "Median Value of Owner-Occupied Homes in $1,000s")
+fit1 <- lm(medv ~ lstat, data = Boston)
+abline(fit1, col = "blue", lwd = 2)
+```
+
+a. According to the summary output, what is the marginal effect of lstat (lower status of the population) to the medv (median value of owner-occupied homes)?
+
+Ans:
+
+b. Calculate the t statistics for the estimated parameter for lstat, $\beta_1$. Show work!
+
+Ans:
+
+c. Interpret the p-value for the estimated parameter for lstat, $\beta_1$. 
+
+Ans:
+
+d. Interpret the $R^2$ of the model.  
+
+Ans:
+
+e. Interpret the p-value of the F test and make a conclusion about the overall significancy of the model.
+

@@ -1,0 +1,116 @@
+---
+title: "BUSAD40 R Assignment 4"
+author: "Your Name"
+date: "8/24/2020"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Assignment 4
+
+* In this assignment, we are going to apply some of the build in data set in R for descriptive statistics analysis.
+* To earn full grade in this assignment, students need to comlete the coding tasks for each questions to get the final result.
+* After finished all the questions, knit the document into HTML format for submission.
+
+### Question 1
+
+In this exercise, we will examine the **Carseats** data, which is part of the ISLR library. We will attempt to model **Sales** (child car seat sales) in 400 locations based on a independent variables.
+
+```{r, echo=FALSE}
+library(ISLR)
+carseats <- subset(Carseats, select = c("Sales", "Price", "Income",
+                                    "Advertising", "Population"))
+head(carseats)
+```
+
+a. Create the descriptive summary for the data set, **carseats**.
+
+```{r}
+# Enter your code here!
+
+
+```
+
+b. Create a pairs plot to display the correlations between all variables.  Can you make a good judgement which variable correlated with **Sales** the most?
+
+```{r}
+# Enter your code here!
+
+
+```
+
+Ans: 
+
+c. Use the correlation function to calculate the correlation between all the variables in the data set. Which variable has the highest correlation to **Sales**?
+
+```{r}
+# Enter your code here!
+
+
+```
+
+Ans: 
+
+d. According to **part c**, use the variable you found to fit the simple linear regression and print the summary output of the model. Hint: the dependent variable is **Sales** and the independent variable is your answer in part c. 
+
+```{r}
+# Enter your code here!
+  
+  
+```
+
+
+e. According to the model summary output, conclude three facts about the model. Hint: it could be the test of the coefficient, interpreting the $R^2$, test of the model, marginal effect of the independent variable, etc.
+
+Ans:
+
+
+***
+
+### Question 2
+
+Applying the same data set, let's try to answer the following questions.
+
+a. Use the model in **Question 1 part d**, predict the **Sales** given the price of the carseat \$50, \$100, and \$150.
+
+```{r}
+# Enter your code here!
+
+
+```
+
+
+b. Create a 95% confidence intervale for your prediction in **part a**.
+
+```{r}
+# Enter your code here!
+
+
+```
+
+
+c. Create a scatter plot for **Sales** and the independent variable in your model, then put the fitted model line to the graph. Hint: the independent should always be on the x-axis and the fitted line is using the abline() function in R.
+
+```{r}
+# Enter your code here!
+
+
+```
+
+
+d. Is there anyway we can increase the explanatory power of the linear model? If yes, what would you suggest to do to improve the model fit? You can provide your code to proof your suggestion, but it is optional!!
+
+Ans:
+
+```{r}
+# Enter your code here!
+  
+
+```
