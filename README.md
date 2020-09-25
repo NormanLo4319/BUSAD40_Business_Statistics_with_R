@@ -43,6 +43,6 @@ This course is based on the textbook, Statistics for Business & Economics, 14e, 
 - Print the Model Summary Output
 - Interpret the Estimated Coefficients
 
-Resource: [Cookbook for R](http://www.cookbook-r.com/) | [R Markdown](https://rmarkdown.rstudio.com/)
+Resource: [Cookbook for R](http://www.cookbook-r.com/) | [R Markdown](https://rmarkdown.rstudio.com/) | [LSR](https://learningstatisticswithr.com/)
 
 Copyright © 2020 Norman Lo
