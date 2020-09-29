@@ -12,23 +12,58 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Question 1
 
-Given the simulated normally distributed data. Answer the following questions with your code.
+Given the probability of the following events and assume that they are independent, answer all the questions for full credit.
+
+Event A: P(A) = 0.25 
+
+Event B: P(B) = 0.35
+
+Event C: P(C) = 0.40
+
+
+1. What is the **complement** of Event C?
+
+Ans: 
+
+2. What is the probability that Event B and Event C happen at the same time? $P(B \cap C)$
+
+Ans: 
+
+2. What is the probability either Event A or Event B happen? $P(A \cup B)$
+
+Ans:
+
+3. What is the probability Event C happen given Event A? $P(C|A)$
+
+Ans:
+
+
+***
+
+### Question 2
+
+Suppose a digital marketing company developed an automation system that sends out promote code to 100 random customers from the database every minute. The automation system has approximately 0.10 or 10% success rate (p) to attract customer to purchase the product. We created a simulated data set to demonstrate the number of success cases (x) per 100 random promote codes (n) sent in 2000 minutes. Answer the following questions based on the given information,
 
 a. Plot a histogram to show the distribution of the simulated data.
 
-b. Assign the mean of the data set to **m** and standard deviation to **sd**.
+b. Calculate the mean and sd of the simulated data. Do the mean and sd closed to the estimated mean and sd? 
 
-c. Find the probability for randomly select a score **below 30** from this simulated data. P(X<30)
+c. What type of the distribution do we call this?  According to the histogram, what is the shape of the distribution? (Skew to the left, skew to the right, or center in the middle) 
 
-d. Find the probability for randomly select a score **above 50** from this simulated data. P(X>50)
+d. What is the probability to successfully sell exactly 40 products by running the automation system for **5 minutes**? P(X = 40)
 
-e. Find the probability for randomly select a score **between 30 and 50** from the simulated data. P(30<X<50)
+e. What is the probability to successfully sell exactly 50 products by running the automation system for **10 minutes**? P(X = 85)
 
-f. What is the score that is at the **80th percentile** of this data? P(X < x) = 0.8
+f. What is the probability to successfully sell 100 products or more by running the automation system for **20 minutes**? P(X $\geq$ 220)
+
+g. What is the number of product sold by running the automation system for **eight minutes** that yields 80th quantile of the distribution? P(X < x) = 0.8
+
+h. Suppose the company will launch the automation system if less than 5% of chance the system will generate less than the success rate suggested. The company took a trial run of the system for an hour and ended up with 534 products sold in this trial run. Do you think the company will launch this system or not based on the trail run result?
+(Hint: You can use either the pbinom() or qbinom() function for this problem.)
 
 ```{r}
-# Simulate a normally distributed data set
-n <- rnorm(5000, mean = 42, sd = 5)
+# Simulate data of 2000 trials
+n <- rbinom(2000, 100, 0.10)
 
 # Enter your code here!
 # Part a
@@ -39,28 +74,43 @@ n <- rnorm(5000, mean = 42, sd = 5)
 
 
 
+print("The mean of the simulated data is _____ and standard deviation is _____.  If using the binomial distribution definition, the mean of the distribution should be _____ and standard deviation is _____.")
+
 # Part c
 
 
 
-# print(paste("The probabability to randomly select a score below 100 is ", ))
+print("This distriubtion is called ______________ and the shape of the data distribution of the product sales is ________________")
+
 
 # Part d
 
 
 
-# print(paste("The probabability to randomly select a score above 150 is ", ))
+print(paste("The probability to successfully sell exactly 40 products by running the automation system for 5 minutes ", ))
 
 # Part e
 
 
 
-# print(paste("The probabability to randomly select a score between 110 and 130 is ", ))
+print(paste("The probability to successfully sell exactly 50 products by running the automation system for 10 minutes ", ))
 
 # Part f
 
 
 
-# print(paste("The score that is at 90th percentile in the data set is ", ))
+print(paste("The probability to successfully sell 100 products or more by running the automation system for 20 minutes ", ))
+
+# Part g
+
+
+
+print(paste("There is a 80% chance to sell ",  , " or less products by running the automation system for 20 minutes."))
+
+# Part h
+
+
+
+print(paste("The probability to sell 543 products or less by running the automation system for an hour is ",  , ".  Based on this probability, the company will (approve / not approve) the new promotion system."))
 
 ```

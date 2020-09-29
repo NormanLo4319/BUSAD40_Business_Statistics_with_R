@@ -1,0 +1,81 @@
+---
+title: "BUSAD40 - Business Statistics"
+subtitle: "Online Activity 5"
+author: "Your Name"
+date: "8/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Question 1
+
+Using the **parenthood** dataset in the data folder, we are going to investigate how father sleeping time and baby sleeping time could be used to explain the father grumpiness. 
+
+```{r, echo=FALSE}
+library(lsr)
+library(psych)
+load("data/parenthood.Rdata")
+```
+
+a. Create the following descriptive statistics to investigate the correlation between each variable in the dataset.
+
+1. Statistic Summary Table (provided in the code)
+2. Histogram for dan.sleep, dan.grump, and baby.sleep
+3. Scatter plot between dan.sleep vs. dan.grump & baby.sleep vs. dan.grump
+4. Correlation matrix between all variables in the dataset
+
+```{r}
+# Summary table by describe() function from psych package
+describe(parenthood)
+
+# Visualize the data
+
+
+# Scatter plot to visualize the correlation between dan.sleep and dan.grump
+
+
+# Scatter plot to visualize the correlation between baby.sleep and dan.grump
+
+
+# Correlation between all variables
+
+
+```
+
+b. Now we find that the dan.sleep is highly correlated with dan.grump, we would like to use the linear regression model to fit the data, in order to estimate the interpretable coefficients.
+
+1. Fitting the data by simple regression model. Hint: dan.grump is the dependent variable and dan.sleep is the independent variable.
+2. Print the model summary
+
+```{r}
+# Fitting simple linear regression model
+
+
+# Regression summary output
+
+```
+
+c. Create a fitted line and put together the data and the fitted line in a plot.
+
+```{r}
+# Create the linear fit line on the scatter plot
+
+```
+
+d. Interpret the esimtated coefficients $\beta_0$ and $\beta_1$.
+
+Ans: 
+
+
+e. Are the two estimated coefficients statistically significant in the model? Interpret the p-values.
+
+Ans:
+
+
+f. How much of the variation of dan.grump is explained by the model?  Interpret the $R^2$.
+
+Ans:
+

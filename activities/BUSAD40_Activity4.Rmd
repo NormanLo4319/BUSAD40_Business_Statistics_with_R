@@ -21,6 +21,7 @@ a. $\mu$ = 33, $\sigma$ = 4.55, $\bar{x}$ = 37, $s$ = 6.2, $n$ = 52
 
 
 
+print(paste(""))
 ```
 
 b. $\mu$ = 122, $\bar{x}$ = 108, $s$ = 15.3, $n$ = 82
@@ -29,7 +30,7 @@ b. $\mu$ = 122, $\bar{x}$ = 108, $s$ = 15.3, $n$ = 82
 # Enter your code here!
 
 
-
+print(paste(""))
 ```
 
 c. Calculate the confident intervals in the following case.
@@ -40,7 +41,7 @@ $\mu$ = 76.4, $\sigma$ = 4.88, $\bar{x}$ = 81.7, $s$ = 8.2, $n$ = 103
 # Enter the code here!
 
 
-
+print(paste(""))
 ```
 
 
@@ -52,7 +53,7 @@ $\mu$ = 64.55, $\sigma$ = 7.82, $\bar{x}$ = 60.14, $s$ = 11.45, $n$ = 34
 # Enter the code here!
 
 
-
+print(paste(""))
 ```
 
 ***
@@ -65,18 +66,20 @@ a. Create the 95% confidence intervals to demonstrates the willingness to pay fo
 
 b. Create a null hypothesis ($\bar{x} \neq \mu$) and run the testing at significant level $\alpha$ = 0.05. Note: this is an two-tail test.
 
-c. Make a conclusion about this test.
+c. Make a conclusion about the test result.
 
 ```{r}
 # Enter your code here!
 # Part a
 
 
+print(paste(""))
 # Part b
 
 
+print(paste(""))
 # Part c
 
 
-
+print(paste(""))
 ```
