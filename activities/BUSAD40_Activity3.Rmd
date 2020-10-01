@@ -29,13 +29,13 @@ Ans:
 
 Ans: 
 
-2. What is the probability either Event A or Event B happen? $P(A \cup B)$
+3. What is the probability either Event A or Event B happen? $P(A \cup B)$
 
-Ans:
+Ans: 
 
-3. What is the probability Event C happen given Event A? $P(C|A)$
+4. What is the probability Event C happen given Event A? $P(C|A)$
 
-Ans:
+Ans: 
 
 
 ***
@@ -52,9 +52,9 @@ c. What type of the distribution do we call this?  According to the histogram, w
 
 d. What is the probability to successfully sell exactly 40 products by running the automation system for **5 minutes**? P(X = 40)
 
-e. What is the probability to successfully sell exactly 50 products by running the automation system for **10 minutes**? P(X = 85)
+e. What is the probability to successfully sell exactly 50 products by running the automation system for **10 minutes**? P(X = 50)
 
-f. What is the probability to successfully sell 100 products or more by running the automation system for **20 minutes**? P(X $\geq$ 220)
+f. What is the probability to successfully sell 100 products or more by running the automation system for **20 minutes**? P(X $\geq$ 100)
 
 g. What is the number of product sold by running the automation system for **eight minutes** that yields 80th quantile of the distribution? P(X < x) = 0.8
 
@@ -69,9 +69,7 @@ n <- rbinom(2000, 100, 0.10)
 # Part a
 
 
-
 # Part b
-
 
 
 print("The mean of the simulated data is _____ and standard deviation is _____.  If using the binomial distribution definition, the mean of the distribution should be _____ and standard deviation is _____.")
@@ -80,7 +78,7 @@ print("The mean of the simulated data is _____ and standard deviation is _____. 
 
 
 
-print("This distriubtion is called ______________ and the shape of the data distribution of the product sales is ________________")
+print("This distriubtion is called _____________ and the shape of the data distribution of the product sales is ______________")
 
 
 # Part d
@@ -105,7 +103,7 @@ print(paste("The probability to successfully sell 100 products or more by runnin
 
 
 
-print(paste("There is a 80% chance to sell ",  , " or less products by running the automation system for 20 minutes."))
+print(paste("There is a 80% chance to sell ",  , " or less products by running the automation system for 8 minutes."))
 
 # Part h
 
