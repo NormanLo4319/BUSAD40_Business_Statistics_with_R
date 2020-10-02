@@ -31,7 +31,7 @@ c. Find the probability for randomly select a score **below 100** from this simu
 
 d. Find the probability for randomly select a score **above 150** from this simulated data. P(X>150)
 
-e. Find the probability for randomly select a score **between 110 and 130** from this simulated data. P(110<X<130)
+e. Find the probability for randomly select a score **between 110 and 130** from this simulated data. P(110 < X < 130)
 
 f. What is the score that is at the **90th percentile** of this data? P(X < x) = 0.9
 
@@ -87,9 +87,9 @@ c. What type of the distribution do we call this?  According to the histogram, w
 
 d. What is the probability for fining exactly 1 defective computer from **one hour** of production? P(X = 1)
 
-e. What is the probability for finding exactly 15 defective computers from **four hours** of production? P(X = 5)
+e. What is the probability for finding exactly 15 defective computers from **four hours** of production? P(X = 15)
 
-f. What is the probability for finding 40 or more defective computers from **two days** of production (8 hours of production per day)? P(X >= 10)
+f. What is the probability for finding 40 or more defective computers from **two days** of production (8 hours of production per day)? P(X >= 40)
 
 g. What is the total number of defective computers you are expected to find from **eight hours** of production that has a probability of 50%? P(X < x) = 0.5
 
