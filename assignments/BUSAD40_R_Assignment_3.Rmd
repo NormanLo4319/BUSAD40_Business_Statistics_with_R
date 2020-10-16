@@ -28,16 +28,12 @@ a. $\mu$ = 46, $\sigma$ = 3.4, $\bar{x}$ = 40, $s$ = 5.6, $n$ = 58
 ```{r}
 # Enter your code here!
 
-
-
 ```
 
 b. $\mu$ = 154, $\sigma$ = 11.6, $\bar{x}$ = 164, $s$ = 22.4, $n$ = 120
 
 ```{r}
 # Enter your code here!
-
-
 
 ```
 
@@ -51,8 +47,6 @@ a. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
 ```{r}
 # Enter your code here!
 
-
-
 ```
 
 b. $\mu$ = 86.2, $\bar{x}$ = 82.4, $s$ = 12.7, $n$ = 62
@@ -60,29 +54,23 @@ b. $\mu$ = 86.2, $\bar{x}$ = 82.4, $s$ = 12.7, $n$ = 62
 ```{r}
 # Enter your code here!
 
-
-
 ```
 
 ### Question 3
 
 Calculate the confident intervals in each of the following case.
 
-a. $\mu$ = 46, $\sigma$ = 3.4, $\bar{x}$ = 40, $s$ = 5.6, $n$ = 58
+a. $\mu$ = 46, $\sigma$ = 3.4, $\bar{x}$ = 40, $s$ = 5.6, $n$ = 58, $\alpha$ = 0.05
 
 ```{r}
 # Enter the code here!
 
-
-
 ```
 
-b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
+b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33, $\alpha$ = 0.01
 
 ```{r}
 # Enter your code here!
-
-
 
 ```
 
@@ -90,29 +78,25 @@ b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
 
 Calculate the p value in each of the following case.
 
-a. $\mu$ = 46, $\sigma$ = 3.4, $\bar{x}$ = 40, $s$ = 5.6, $n$ = 58
+a. $\mu$ = 43.2, $\sigma$ = 12.4, $\bar{x}$ < 40, $s$ = 5.6, $n$ = 84, $\alpha$ = 0.10
 
 ```{r}
 # Enter the code here!
 
-
-
 ```
 
-b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
+b. $\mu$ = 48.2, $\bar{x}$ > 50, $s$ = 8.3, $n$ = 33
 
 ```{r}
 # Enter your code here!
-
-
 
 ```
 
 ### Question 5
 
-In a tech company, a project manager is planning on running an online promotion, whcih offers a 50% discount pomotion code on their service for the first three months. The manager projects to at least \$500 revenue per account. The previous pomotion events shows the average revenue per account is \$488 with standard deviation \$52 and it's normally distributed. Suppose the manager plans to starts with 100 existing accounts to send them the code and evaluate the effectiveness of the promotion.
+In a tech company, a project manager is planning on running an online promotion, whcih offers a 50% discount pomotion code on their service for the first three months. The previous pomotion events shows the average revenue per account is \$488 with standard deviation \$52. Suppose the manager started with 100 existing accounts to send them the code. The average revenue returned from the 100 accounts is \$500 with standard deviation \$68.  Answer the following question based on the given information.
 
-a. Create the 95% confidence intervals to demonstrates the potential return from this trial.
+a. Create the 95% confidence intervals to demonstrates the potential return from the online promotion.
 
 b. Create a null hypothesis ($\bar{x} \geq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this is an one-sided test.
 
@@ -128,13 +112,12 @@ c. Make a conclusion about this test.
 
 # Part c
 
-
-
 ```
 
 #### Conclusion:
 
-Ans:
+Ans: 
+
 
 ### Question 6
 
@@ -147,16 +130,10 @@ $\alpha = 0.05$
 ```{r, echo=FALSE}
 # Import the data
 wnba <- read.csv("data/wnba_data.csv")
+head(wnba)
 ```
 ```{r}
 # Enter your code here!
-
-
-
-
-
-
-
 
 ```
 
