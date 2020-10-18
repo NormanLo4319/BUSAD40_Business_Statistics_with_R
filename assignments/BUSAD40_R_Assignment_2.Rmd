@@ -52,25 +52,25 @@ n <- rnorm(10000, mean = 120, sd = 12)
 
 
 
-# print(paste("The probabability to randomly select a score below 100 is ", ))
+print(paste("The probabability to randomly select a score below 100 is ", ))
 
 # Part d
 
 
 
-# print(paste("The probabability to randomly select a score above 150 is ", ))
+print(paste("The probabability to randomly select a score above 150 is ", ))
 
 # Part e
 
 
 
-# print(paste("The probabability to randomly select a score between 110 and 130 is ", ))
+print(paste("The probabability to randomly select a score between 110 and 130 is ", ))
 
 # Part f
 
 
 
-# print(paste("The score that is at 90th percentile in the data set is ", ))
+print(paste("The score that is at 90th percentile in the data set is ", ))
 
 ```
 
@@ -93,7 +93,7 @@ f. What is the probability for finding 40 or more defective computers from **two
 
 g. What is the total number of defective computers you are expected to find from **eight hours** of production that has a probability of 50%? P(X < x) = 0.5
 
-h. Suppose the company only accept 5% or less defective rate to approve for shipment. In a regular inspection, you inspected eight hours of production and found 15 defected computers. Should you approve for shipment? P(X = 15) < 0.05
+h. Suppose the company only accept 5% of risk that the defective rate is more than what is suggested to approve for shipment. In a regular inspection, you inspected eight hours of production and found 26 defected computers. Should you approve for shipment? If $P(X \geq 26)$ < 0.05, reject shipment!
 (Hint: You can use both pbinom() or qbinom() functions for this problem.)
 
 ```{r}
@@ -110,33 +110,34 @@ n <- rbinom(1000, 50, 0.05)
 
 # Part c
 
-# print("This distriubtion is called ______________ and the shape of the data distribution of the defective computer is ________________")
+print("This distriubtion is called ______________ and the shape of the data distribution of the defective computer is ________________")
 
 
 # Part d
 
 
-# print(paste("The probability to find exactly 1 defective computer from one hour of production is ", ))
+print(paste("The probability to find exactly 1 defective computer from one hour of production is ", ))
 
 # Part e
 
 
-# print(paste("The probability to find exactly 15 defective computers from four hours of production is ", ))
+print(paste("The probability to find exactly 15 defective computers from four hours of production is ", ))
 
 # Part f
 
 
-# print(paste("The probability to find 40 or more defective computers from two days of production is ", ))
+print(paste("The probability to find 40 or more defective computers from two days of production is ", ))
 
 # Part g
 
 
-# print(paste("There is a 50% chance to find ",  , " defective computers from 8 hours of production."))
+print(paste("There is a 50% chance to find ",  , " defective computers from 8 hours of production."))
 
 # Part h
 
 
-# print("The shipment should (be approved / not be approved).")
+print(paste("The probability to find 26 defects from 400 computers is ", ))
+print("The shipment should (be approved / not be approved).")
 
 ```
 

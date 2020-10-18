@@ -43,8 +43,6 @@ a. Report the number of variables and observations in the data set.
 print("There are total of _____ variables and _____ observations in this data set.")
 ```
 
-
-
 b. Print the summary statistics of the data set and report how many discrete and continuous variables are in the data set.
 
 ```{r}
@@ -67,10 +65,8 @@ c. Calculate the mean, variance, and standard deviation for the variable **mpg**
 
 
 # Answer
-# print(paste("The average of Mile Per Gallon from this data set is ",  , " with variance ",  , " and standard deviation",  , "."))
+print(paste("The average of Mile Per Gallon from this data set is ",  , " with variance ",  , " and standard deviation",  , "."))
 ```
-
-
 
 d. Create two tables to summarize 1) average mpg for each cylinder class and 2) the standard deviation of mpg for each gear class.
 
@@ -81,8 +77,6 @@ d. Create two tables to summarize 1) average mpg for each cylinder class and 2) 
 
 
 ```
-
-
 
 e. Create a crosstab that shows the number of observations belong to each cylinder and gear class combinations. The table should shows how many observations given the car has 4 cylinders with 3 gears, 4 cylinders with 4 gears, etc. Report which combination is recorded in this data set and how many observation for this type of car.
 
@@ -96,12 +90,11 @@ print("The most common car type in this data set is a car with ____ cylinders an
 *** 
 
 
-
 ### Question 2
 
 Use different visualization tools to summarize the data sets in this question.
 
-a. Using the **PlantGrowth** data set, visualize and compare the weight of the plant in the two separated group. Give labels to the titel, x-axis, and y-axis on the graph. Write a paragraph to summerize your findings in this graph.
+a. Using the **PlantGrowth** data set, visualize and compare the weight of the plant in the three separated groups. Give labels to the titel, x-axis, and y-axis on the graph. Write a paragraph to summerize your findings in this graph.
 
 ```{r}
 # Load the data set
@@ -120,7 +113,6 @@ Result:
 => Enter your results here!
 
 
-
 b. Using the **mtcars** data set, plot the histogram for the column **mpg** with 10 breaks. Give labels to the titel, x-axis, and y-axis on the graph. Report the most observed mpg class from the data set.
 
 ```{r}
@@ -131,8 +123,7 @@ print("Most of the cars in this data set are in the class of ______ mile per gal
 ```
 
 
-
-c. Using the **USArrests** data set, create a pairs plot to display the correlations between the variables in the data set. Plot the scatter plot graph of **Murder** and **Assault**. Give labels to the titel, x-axis, and y-axis on the graph. Write a paragraph to summarize your results from both plots.
+c. Using the **USArrests** data set, create a pairs plot to display the correlations between the variables in the data set. Create a scatter plot for **Murder** and **Assault**. Give labels to the titel, x-axis, and y-axis on the graph. Write a paragraph to summarize your results from the plot.
 
 ```{r}
 # Load the data set
@@ -151,7 +142,6 @@ Result:
 => Enter your result here!
 
 ***
-
 
 
 ### Question 3

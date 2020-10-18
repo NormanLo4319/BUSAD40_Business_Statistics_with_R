@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Question 1
 
-In this exercise, we will examine the **Carseats** data, which is part of the ISLR library. We will attempt to model **Sales** (child car seat sales) in 400 locations based on a independent variables.
+In this exercise, we will examine the **Carseats** data, which is part of the ISLR library. We will attempt to model **Sales** (child car seat sales) in 400 locations based on an independent variables.
 
 ```{r, echo=FALSE}
 library(ISLR)
@@ -65,7 +65,6 @@ d. According to **part c**, use the variable you found to fit the simple linear 
   
   
 ```
-
 
 e. According to the model summary output, conclude three facts about the model. Hint: it could be the test of the coefficient, interpreting the $R^2$, test of the model, marginal effect of the independent variable, etc.
 

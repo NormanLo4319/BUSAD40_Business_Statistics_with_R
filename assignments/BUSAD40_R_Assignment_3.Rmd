@@ -85,7 +85,7 @@ a. $\mu$ = 43.2, $\sigma$ = 12.4, $\bar{x}$ < 40, $s$ = 5.6, $n$ = 84, $\alpha$ 
 
 ```
 
-b. $\mu$ = 48.2, $\bar{x}$ > 50, $s$ = 8.3, $n$ = 33
+b. $\mu$ = 48.2, $\bar{x}$ > 50, $s$ = 8.3, $n$ = 33, $/alpha$ = 0.05
 
 ```{r}
 # Enter your code here!
@@ -121,7 +121,7 @@ Ans:
 
 ### Question 6
 
-Suppose the US population average height is 64.68 inches and we would like to test if players in the WBA league is statistically higher than an average US citizen at 5% significant level. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement from the test.
+Suppose the US population average height is 64.68 inches and we would like to test if players in the WBA league is statistically higher than an average US citizen at 5% significant level. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement based on the result of the test.
 
 $H_o: \mu_{WNBA} \leq \mu_{US}$  
 $H_a: \mu_{WNBA} > \mu_{US}$  
