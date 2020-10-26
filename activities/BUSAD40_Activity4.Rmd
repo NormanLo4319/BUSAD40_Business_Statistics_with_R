@@ -58,13 +58,13 @@ print(paste(""))
 
 ***
 
-### Qustion 2
+### Question 2
 
 A market research surveyed 200 random residents in California about their willingness to pay for the mobile phone service. The mean from this survey is \$33.50 with standard deviation \$4.55. Given that the population mean is \$31.24. Answer the following questions,
 
 a. Create the 95% confidence intervals to demonstrates the willingness to pay for the mobile phone service in California.
 
-b. Create a null hypothesis ($\bar{x} \neq \mu$) and run the testing at significant level $\alpha$ = 0.05. Note: this is an two-tail test.
+b. Create a null hypothesis ($\bar{x} = \mu$) and run the testing at significant level $\alpha$ = 0.05. Note: this is an two-tail test.
 
 c. Make a conclusion about the test result.
 

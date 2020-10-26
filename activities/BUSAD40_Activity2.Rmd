@@ -52,7 +52,7 @@ c. Calculate the mean, variance, and standard deviation for the variable **hp** 
 # Enter your code here!
 
 
-# print(paste("The average horsepower from this data set is ",  , " with variance ",  , " and standard deviation",  , "."))
+print(paste("The average horsepower from this data set is ",  , " with variance ",  , " and standard deviation",  , "."))
 ```
 
 ***
