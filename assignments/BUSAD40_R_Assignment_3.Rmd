@@ -98,7 +98,7 @@ In a tech company, a project manager is planning on running an online promotion,
 
 a. Create the 95% confidence intervals to demonstrates the potential return from the online promotion.
 
-b. Create a null hypothesis ($\bar{x} \geq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this is an one-sided test.
+b. Create a null hypothesis ($\bar{x} \leq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this is an one-sided test.
 
 c. Make a conclusion about this test.
 
