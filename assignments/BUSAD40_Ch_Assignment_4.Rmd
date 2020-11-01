@@ -38,9 +38,17 @@ $\bar{x}$ =
 
 $\bar{y}$ =
 
+b. Calculate the covariance of x and y. Does your answer illustrate a positive or negative relationship between x and y? (Show Work!)
+
+Ans:
 
 
-b. Calcualte and fill out the rest of the statistics in the table.
+c. Calculate the correlation of x and y. Does your answer illustrate a strong or weak correlation between x and y? (Show Work!)
+
+Ans:
+
+
+d. Calcualte and fill out the rest of the statistics in the table.
 
 | $x_i-\bar{x}$ | $y_i-\bar{y}$ | $(x_i-\bar{x})(y_i-\bar{y})$ | $(x_i-\bar{x})^2$ | 
 |  :---:  |  :---:  |  :---:  |  :---:  |
@@ -50,22 +58,22 @@ b. Calcualte and fill out the rest of the statistics in the table.
 |         |         |         |         |
 |         |         |         |         |
 
-c. Calculate the estimated slope of the regression model. (Show Work!)
+e. Calculate the estimated slope of the regression model. (Show Work!)
 
 $\beta_1$ = 
 
 
-d. Calculate the estimated y-intercept of the regression model. (Show Work!)
+f. Calculate the estimated y-intercept of the regression model. (Show Work!)
 
 $\beta_0$ = 
 
 
-e. Write out the estimated regression equation fitting the data. 
+g. Write out the estimated regression equation fitting the data. 
 
 Ans:
 
 
-f. Complete the following table:
+h. Complete the following table:
 
 | $\hat{y}_i$ | $(y_i-\hat{y}_i)^2$ | $(y_i-\bar{y})^2$ | $(\hat{y_i}-\bar{y})^2$ |
 |  :---:  |  :---:  |  :---:  |  :---:  |
@@ -76,7 +84,7 @@ f. Complete the following table:
 |         |         |         |         |
 
 
-g. Calculate the Residual Sum of Squares, Total Sum of Squares, and Explained Sum of Squares with the results from part f.
+i. Calculate the Residual Sum of Squares, Total Sum of Squares, and Explained Sum of Squares with the results from part f.
 
 Residual Sum of Squares = 
 
