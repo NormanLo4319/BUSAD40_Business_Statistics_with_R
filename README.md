@@ -7,6 +7,9 @@ This course is based on the textbook, Statistics for Business & Economics, 14e, 
 
 <img src="./images/textbook.png" width="180" height="240">
 
+### Software:
+The main statistical software package we are using in this course is "R" and the Integrated Development Environment, IDEs, "R Studio". To install R, you can find visit the [R-Project](https://www.r-project.org/) website and follow the instructions to install the software on your machine.  Once R is installed on your machine, you can visit the [RStudio](https://rstudio.com/products/rstudio/download/) website and follow the instructions to install the IDE on your machine. To start coding in R, we only need to start RStudio because it automatically runs the R software in the background and execute the code.
+
 ## Contents:
 
 ### Descriptive Statistics (Tabular Format)
