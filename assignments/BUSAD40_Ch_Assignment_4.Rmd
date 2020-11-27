@@ -33,30 +33,33 @@ Given are five observations for two variable, x and y.
 
 a. Calculate the mean for x and y. (Show Work!)
 
+
 $\bar{x}$ = 
 
 
-$\bar{y}$ =
-
-b. Calculate the covariance of x and y. Does your answer illustrate a positive or negative relationship between x and y? (Show Work!)
-
-Ans:
+$\bar{y}$ = 
 
 
-c. Calculate the correlation of x and y. Does your answer illustrate a strong or weak correlation between x and y? (Show Work!)
-
-Ans:
-
-
-d. Calcualte and fill out the rest of the statistics in the table.
+b. Calculate and fill out the rest of the statistics in the table.
 
 | $x_i-\bar{x}$ | $y_i-\bar{y}$ | $(x_i-\bar{x})(y_i-\bar{y})$ | $(x_i-\bar{x})^2$ | 
 |  :---:  |  :---:  |  :---:  |  :---:  |
-|   -2    |   -5    |   10    |   4     |
+|  **-2** | **-5**  |  **10** |  **4**  |
 |         |         |         |         |
 |         |         |         |         |
 |         |         |         |         |
 |         |         |         |         |
+
+
+c. Calculate the covariance of x and y. Does your answer illustrate a positive or negative relationship between x and y? (Show Work!)
+
+Ans: 
+
+
+d. Calculate the correlation of x and y. Does your answer illustrate a strong or weak correlation between x and y? (Show Work!)
+
+Ans: 
+
 
 e. Calculate the estimated slope of the regression model. (Show Work!)
 
@@ -88,9 +91,9 @@ i. Calculate the Residual Sum of Squares, Total Sum of Squares, and Explained Su
 
 Residual Sum of Squares = 
 
-Total Sum of Squares =
+Total Sum of Squares = 
 
-Explained Sum of Squares =
+Explained Sum of Squares = 
 
 
 ***

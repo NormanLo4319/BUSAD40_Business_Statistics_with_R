@@ -2,11 +2,12 @@
 title: "BUSAD40 - Business Statistics"
 author: "Your Name"
 date: "8/24/2020"
-output: 
+output:
+  pdf_document: default
   html_document:
-    theme: united
-    highlight: tango
     df_print: paged
+    highlight: tango
+    theme: united
 ---
 
 ```{r setup, include=FALSE}
@@ -45,7 +46,7 @@ Ans:
 
 ### Question 2
 
-Given the following situations, which of the probability distribution woudl be the most appropriate to apply?
+Given the following situations, which of the probability distribution would be the most appropriate to apply?
 
 |  Distribution List         |
 |  :----------------------:  |
@@ -54,7 +55,7 @@ Given the following situations, which of the probability distribution woudl be t
 |  Binomial Distribution     |
 |  Poisson Distribution      |
 
-1. As an quality control inspector, your job is to ensure the product quality meeting the company standard. Inspectors usually check the product from the production and count the number of inspected items until they find a defect. 
+1. As a quality control inspector, your job is to ensure the product quality meeting the company standard. Inspectors usually check the product from the production and count the number of inspected items until they find a defect. 
 
 Ans: 
 
@@ -66,7 +67,7 @@ Ans:
 
 Ans:
 
-4. In the World Cup, an average of 2.5 goals are scored each game. Modeling this situation we can use a distribution to approaximate the probability that k goals are scored in a game.
+4. In the World Cup, an average of 2.5 goals are scored each game. Modeling this situation, we can use a distribution to approximate the probability that k goals are scored in a game.
 
 Ans: 
 
@@ -101,7 +102,7 @@ ftable(UCBAdmissions, c(2,3),
 print(paste("The total number of applications: ", sum(UCBAdmissions)))
 ```
 
-1. Suppose you are one of the adminstration staff who handle the applications. Based on this inforamtion, what is your probability that you randomly pick an application from a female applicant? $P(Gender=Female)$
+1. Suppose you are one of the administration staff who handle the applications. Based on this information, what is your probability that you randomly pick an application from a female applicant? $P(Gender=Female)$
 
 Ans: 
 
@@ -126,7 +127,7 @@ Ans:
 Ans:
 
 
-6. What is the proability a randomly picked application is applying either department B, D, or F? $P(Department=B \cup Department=D \cup Department=F)$
+6. What is the probability a randomly picked application is applying either department B, D, or F? $P(Department=B \cup Department=D \cup Department=F)$
 
 Ans:
 
@@ -136,14 +137,14 @@ Ans:
 Ans:
 
 
-8. What is the probability a randomly selected application is admitted by UCB given that the applicant is a female? $P(Adimitted=Yes | Gender=Female)$
+8. What is the probability a randomly selected application is admitted by UCB given that the applicant is a female? $P(Admitted=Yes | Gender=Female)$
 
 Ans:
 
 
 ### Question 4:
 
-Suppose you are running a small local busniess.  You have a shipment just arrived from your supplier and below is the table of the summary about the quality of the shipment.
+Suppose you are running a small local business.  You have a shipment just arrived from your supplier and below is the table of the summary about the quality of the shipment.
 
 |  Category     |  Defect  |  Not Defect  |
 |  :---------:  |  :----:  |  :--------:  |
@@ -152,14 +153,14 @@ Suppose you are running a small local busniess.  You have a shipment just arrive
 |  Socks        |  33      |  832         |
 |  Accessories  |  18      |  628         |
 
-Given the summary table, answer the following probability quesitons: (Show Work!!)
+Given the summary table, answer the following probability questions: (Show Work!!)
 
 1. What is the probability for your customer randomly pick an item that is an accessory and not defect?
 
 Ans:
 
 
-2. What is the probability for your custoemr randomly pick an item that is a bag and defect?
+2. What is the probability for your customer randomly pick an item that is a bag and defect?
 
 Ans:  
 
@@ -181,11 +182,11 @@ Ans:
 
 Ans:
 
-3. What length of time marks the shortest 75% of all shippment?
+3. What length of time marks the shortest 75% of all shipment?
 
 Ans:
 
-4. What is the upper bound and lower bound lenght of time for a shippment arrive within 2 standard deviation from the mean?
+4. What is the upper bound and lower bound length of time for a shipment arrive within 2 standard deviation from the mean?
 
 Ans:
 

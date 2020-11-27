@@ -52,7 +52,7 @@ c. Calculate the mean, variance, and standard deviation for the variable **hp** 
 # Enter your code here!
 
 
-print(paste("The average horsepower from this data set is ",  , " with variance ",  , " and standard deviation",  , "."))
+# print(paste("The average horsepower from this data set is ",  , " with variance ",  , " and standard deviation",  , "."))
 ```
 
 ***
@@ -67,7 +67,7 @@ d. Create two tables to summarize 1) average horsepower for each engine type and
 
 ***
 
-e. Create a crosstab that shows the number of observations belong to each engine and transmission class combinations. The table should shows how many observations given the car has v-shaped engine with automatic transmission, straight engine with manual tansimission, etc. Report which combination is recorded in this data set the most and how many observation for this type of car.
+e. Create a crosstab that shows the number of observations belong to each engine and transmission class combinations. The table should show how many observations given the car has V-shaped engine with automatic transmission, straight engine with manual transmission, etc. Report which combination is recorded in this data set the most and how many observations for this type of car.
 
 ```{r}
 # Enter your code here!
@@ -78,7 +78,7 @@ print("The most common car type in this data set is a car with ______ engine and
 
 ***
 
-f. Using the **mtcars** data set, plot the histogram for the column **hp** with 10 breaks. Give labels to the titel, x-axis, and y-axis on the graph. Report the most observed mpg class from the data set.
+f. Using the **mtcars** data set, plot the histogram for the column **hp** with 10 breaks. Give labels to the title, x-axis, and y-axis on the graph. Report the most observed mpg class from the data set.
 
 ```{r}
 # Enter your code here!
@@ -89,7 +89,7 @@ print("Most of the cars in this data set are in the class of _________ horsepowe
 
 ***
 
-g. Using the **mtcars** data set, plot the bar chart for the column **gear**. Give labels to the titel, x-axis, and y-axis on the graph. Write a conclusion about the finding.
+g. Using the **mtcars** data set, plot the bar chart for the column **gear**. Give labels to the title, x-axis, and y-axis on the graph. Write a conclusion about the finding.
 
 ```{r}
 # Enter your code here!
@@ -103,7 +103,7 @@ Ans:
 
 ***
 
-h. Using the **USArrests** data set, create a pairs plot to display the correlations between the variables in the data set. Plot the scatter plot graph of **Murder** and **Assault**. Give labels to the titel, x-axis, and y-axis on the graph. Write a paragraph to summarize your results from both plots.
+h. Using the **USArrests** data set, create a pairs plot to display the correlations between the variables in the data set. Plot the scatter plot graph of **Murder** and **Assault**. Give labels to the title, x-axis, and y-axis on the graph. Write a paragraph to summarize your results from both plots.
 
 ```{r}
 # Load the data set
@@ -119,7 +119,7 @@ head(USArrests)
 
 ***
 
-i. Download the housing data set from www.jaredlander.com and find out what explains the housing prices in New York City.
+3. Download the housing data set from www.jaredlander.com and find out what explains the housing prices in New York City.
 
 ```{r, echo=FALSE}
 # Load and clean the housing data set 
@@ -131,7 +131,7 @@ housingData <- subset(housingData,
 housingData <- na.omit(housingData)                   
 ```
 
-Create your own descriptive statistics and aggregation tables to summarize the data set and find any meanful results between different variables in the data set.
+Create your own descriptive statistics and aggregation tables to summarize the data set and find any meaningful results between different variables in the data set.
 
 ```{r}
 # Head of the cleaned data set

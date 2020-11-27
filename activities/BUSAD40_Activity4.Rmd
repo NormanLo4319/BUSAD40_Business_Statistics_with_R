@@ -35,7 +35,7 @@ print(paste(""))
 
 c. Calculate the confident intervals in the following case.
 
-$\mu$ = 76.4, $\sigma$ = 4.88, $\bar{x}$ = 81.7, $s$ = 8.2, $n$ = 103
+$\mu$ = 76.4, $\sigma$ = 4.88, $\bar{x}$ = 81.7, $s$ = 8.2, $n$ = 103, $\alpha$ = 0.01
 
 ```{r}
 # Enter the code here!
@@ -47,7 +47,7 @@ print(paste(""))
 
 d. Calculate the p value in the following case.
 
-$\mu$ = 64.55, $\sigma$ = 7.82, $\bar{x}$ = 60.14, $s$ = 11.45, $n$ = 34
+$\mu$ = 64.55, $\sigma$ = 7.82, $\bar{x}$ = 60.14, $s$ = 11.45, $n$ = 34, $\alpha$ = 0.05
 
 ```{r}
 # Enter the code here!
@@ -64,7 +64,7 @@ A market research surveyed 200 random residents in California about their willin
 
 a. Create the 95% confidence intervals to demonstrates the willingness to pay for the mobile phone service in California.
 
-b. Create a null hypothesis ($\bar{x} = \mu$) and run the testing at significant level $\alpha$ = 0.05. Note: this is an two-tail test.
+b. Create a null hypothesis ($\bar{x} \neq \mu$) and run the testing at significant level $\alpha$ = 0.05. Note: this is a two-tail test.
 
 c. Make a conclusion about the test result.
 

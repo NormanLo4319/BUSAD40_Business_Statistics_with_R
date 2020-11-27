@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## R Assignment 3
 
 * In this assignment, we are going to apply some of the build in data set in R for descriptive statistics analysis.
-* To earn full grade in this assignment, students need to comlete the coding tasks for each questions to get the final result.
+* To earn full grade in this assignment, students need to complete the coding tasks for each question to get the result.
 * After finished all the questions, knit the document into HTML format for submission.
 
 ### Question 1
@@ -38,7 +38,7 @@ b. $\mu$ = 154, $\sigma$ = 11.6, $\bar{x}$ = 164, $s$ = 22.4, $n$ = 120
 ```
 
 
-### Qustion 2
+### Question 2
 
 Given the following information, calculate the t statistic in each case.
 
@@ -85,7 +85,7 @@ a. $\mu$ = 43.2, $\sigma$ = 12.4, $\bar{x}$ < 40, $s$ = 5.6, $n$ = 84, $\alpha$ 
 
 ```
 
-b. $\mu$ = 48.2, $\bar{x}$ > 50, $s$ = 8.3, $n$ = 33, $/alpha$ = 0.05
+b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
 
 ```{r}
 # Enter your code here!
@@ -94,11 +94,11 @@ b. $\mu$ = 48.2, $\bar{x}$ > 50, $s$ = 8.3, $n$ = 33, $/alpha$ = 0.05
 
 ### Question 5
 
-In a tech company, a project manager is planning on running an online promotion, whcih offers a 50% discount pomotion code on their service for the first three months. The previous pomotion events shows the average revenue per account is \$488 with standard deviation \$52. Suppose the manager started with 100 existing accounts to send them the code. The average revenue returned from the 100 accounts is \$500 with standard deviation \$68.  Answer the following question based on the given information.
+In a tech company, a project manager is planning on running an online promotion, which offers a 50% discount promotion code on their service for the first three months. The previous promotion events show the average revenue per account is \$488 with standard deviation \$52. Suppose the manager started with 100 existing accounts to send them the code. The average revenue returned from the 100 accounts is \$500 with standard deviation \$68.  Answer the following question based on the given information.
 
 a. Create the 95% confidence intervals to demonstrates the potential return from the online promotion.
 
-b. Create a null hypothesis ($\bar{x} \leq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this is an one-sided test.
+b. Create a null hypothesis ($\bar{x} \geq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this is a one-sided test.
 
 c. Make a conclusion about this test.
 
@@ -121,7 +121,7 @@ Ans:
 
 ### Question 6
 
-Suppose the US population average height is 64.68 inches and we would like to test if players in the WBA league is statistically higher than an average US citizen at 5% significant level. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement based on the result of the test.
+Suppose the US population average height is 64.68 inches, and we would like to test if players in the WBA league is statistically higher than an average US citizen at 5% significant level. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement from the test.
 
 $H_o: \mu_{WNBA} \leq \mu_{US}$  
 $H_a: \mu_{WNBA} > \mu_{US}$  
@@ -139,4 +139,4 @@ head(wnba)
 
 #### Conclusion:
 
-Ans: 
+Ans:

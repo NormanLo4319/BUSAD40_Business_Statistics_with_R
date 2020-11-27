@@ -56,9 +56,9 @@ e. What is the probability to successfully sell exactly 50 products by running t
 
 f. What is the probability to successfully sell 100 products or more by running the automation system for **20 minutes**? P(X $\geq$ 100)
 
-g. What is the number of product sold by running the automation system for **eight minutes** that yields 80th quantile of the distribution? P(X < x) = 0.8
+g. What is the number of products sold by running the automation system for **eight minutes** that yields 80th quantile of the distribution? P(X < x) = 0.8
 
-h. Suppose the company will launch the automation system if less than 5% of chance the system will generate less than the success rate suggested. The company took a trial run of the system for an hour and ended up with 534 products sold in this trial run. Do you think the company will launch this system or not based on the trail run result?
+h. Suppose the company will launch the automation system if the system can generate the sales of the product as suggested by the success rate. The company accepts up to 5% of risk to adopt the system. The company took a trial run of the system for an hour and ended up with 534 products sold in this trial run. Do you think the company will launch this system or not based on the trail run result?
 (Hint: You can use either the pbinom() or qbinom() function for this problem.)
 
 ```{r}
@@ -78,7 +78,7 @@ print("The mean of the simulated data is _____ and standard deviation is _____. 
 
 
 
-print("This distriubtion is called _____________ and the shape of the data distribution of the product sales is ______________")
+print("This distribution is called _____________ and the shape of the data distribution of the product sales is ______________")
 
 
 # Part d
@@ -103,7 +103,7 @@ print(paste("The probability to successfully sell 100 products or more by runnin
 
 
 
-print(paste("There is a 80% chance to sell ",  , " or less products by running the automation system for 8 minutes."))
+print(paste("There is an 80% chance to sell ",  , " or less products by running the automation system for 8 minutes."))
 
 # Part h
 
@@ -112,3 +112,4 @@ print(paste("There is a 80% chance to sell ",  , " or less products by running t
 print(paste("The probability to sell 543 products or less by running the automation system for an hour is ",  , ".  Based on this probability, the company will (approve / not approve) the new promotion system."))
 
 ```
+

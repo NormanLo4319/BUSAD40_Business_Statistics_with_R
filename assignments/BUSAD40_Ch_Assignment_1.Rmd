@@ -33,9 +33,9 @@ Choose the most accurate answer from the table for problem #1 - 5.
 
 \
 
-1.	A researcher is interested in the sleeping habits of American college students.  A group of 50 students is interviewed and the researcher finds that these students sleep an average of 6.7 hours per day.  For this study, the average of 6.7 hours is an example of a(n) ___________________.
+1.	A researcher is interested in the sleeping habits of American college students.  A group of 50 students is interviewed and the researcher finds that these students sleep an average of 6.7 hours per day.  For this study, the average of 6.7 hours is an example of a(n) ______________________.
 
-2.	Statistical techniques that summarize, organize, and simplify data are classified as ___________________.
+2.	Statistical techniques that summarize, organize, and simplify data are classified as _________________.
 
 3.	A research study comparing alcohol use for college students in the United States and Canada reports that more Canadian students drink but American student drink more (Kuo, Adlaf, Lee, Gliksman, Demers, and Wechsler, 2002).  This study used _____________________ research design.
 
@@ -84,11 +84,11 @@ Ans: ________________________________________
 
 ### Question 4
 
-The “mean” generally is considered to be the best of the three measures of central tendency.  However, there are specific situations in which the mode and the median are used.  Identify which of the following situation is appropriate to measure the central tendency by the **mode** or the **median**.
+The “mean” generally is the best of the three measures of central tendency.  However, there are specific situations in which the mode and the median are used.  Identify which of the following situation is appropriate to measure the central tendency by the **mode** or the **median**.
 
 |  Situation                              |  Appropriate Measure (Mode / Median)  |
 |  :-----------------------------------:  |  :----------------------------------: |
-|  Nomial Scales                          |  Ans:                                 |
+|  Nominal Scales                         |  Ans:                                 |
 |  Discrete Variable                      |  Ans:                                 |
 |  Extreme Scores or Skewed Distribution  |  Ans:                                 |
 |  Ordinal Scales                         |  Ans:                                 |
@@ -198,7 +198,7 @@ The report includes the following 24 rating results.
 |  4      |  4      |  3      |  3      |
 |  4      |  5      |  3      |  4      |
 
-Complete the following Frequencey Distribution Table:
+Complete the following Frequency Distribution Table:
 
 |  Rating              |  Frequency  |  Relative Frequency  |  Percent Frequency  |
 |  :----------------:  |  :-------:  |  :----------------:  |  :---------------:  |

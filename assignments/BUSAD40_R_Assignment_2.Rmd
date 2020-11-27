@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## R Assignment 2
 
 * In this assignment, we are going to apply some of the build in data set in R for descriptive statistics analysis.
-* To earn full grade in this assignment, students need to comlete the coding tasks for each questions to get the final result.
+* To earn full grade in this assignment, students need to complete the coding tasks for each question to get the result.
 * After finished all the questions, knit the document into HTML format for submission.
 
 ### Question 1
@@ -31,7 +31,7 @@ c. Find the probability for randomly select a score **below 100** from this simu
 
 d. Find the probability for randomly select a score **above 150** from this simulated data. P(X>150)
 
-e. Find the probability for randomly select a score **between 110 and 130** from this simulated data. P(110 < X < 130)
+e. Find the probability for randomly select a score **between 110 and 130** from this simulated data. P(110<X<130)
 
 f. What is the score that is at the **90th percentile** of this data? P(X < x) = 0.9
 
@@ -52,19 +52,19 @@ n <- rnorm(10000, mean = 120, sd = 12)
 
 
 
-print(paste("The probabability to randomly select a score below 100 is ", ))
+print(paste("The probability to randomly select a score below 100 is ", ))
 
 # Part d
 
 
 
-print(paste("The probabability to randomly select a score above 150 is ", ))
+print(paste("The probability to randomly select a score above 150 is ", ))
 
 # Part e
 
 
 
-print(paste("The probabability to randomly select a score between 110 and 130 is ", ))
+print(paste("The probability to randomly select a score between 110 and 130 is ", ))
 
 # Part f
 
@@ -77,7 +77,7 @@ print(paste("The score that is at 90th percentile in the data set is ", ))
 
 ### Question 2
 
-Lets assume we are in charge of quality control for a computer factory. The production line makes 50 computers per hour. The defective computer must be reworked. We know that there is a 5% error rate (defective rate). We simulate the numbers of defects will need to be fixed each hour for 1000 hours of production. Answer the following questions with your code.
+Let’s assume we oversee quality control for a computer factory. The production line makes 50 computers per hour. The defective computer must be reworked. We know that there is a 5% error rate (defective rate). We simulate the numbers of defects will need to be fixed each hour for 1000 hours of production. Answer the following questions with your code.
 
 a. Plot a histogram to show the distribution of the simulated data.
 
@@ -85,16 +85,16 @@ b. Print the mean and sd of the simulated data.
 
 c. What type of the distribution do we call this?  According to the histogram, what is the shape of the distribution? (Skew to the left, skew to the right, or center in the middle) 
 
-d. What is the probability for fining exactly 1 defective computer from **one hour** of production? P(X = 1)
+d. What is the probability for finding exactly 1 defective computer from **one hour** of production? P(X = 1)
 
 e. What is the probability for finding exactly 15 defective computers from **four hours** of production? P(X = 15)
 
 f. What is the probability for finding 40 or more defective computers from **two days** of production (8 hours of production per day)? P(X >= 40)
 
-g. What is the total number of defective computers you are expected to find from **eight hours** of production that has a probability of 50%? P(X < x) = 0.5
+g. What is the number of defective computers from **eight hours** of production that yields 75th quantile of the distribution? P(X < x) = 0.75
 
-h. Suppose the company only accept 5% of risk that the defective rate is more than what is suggested to approve for shipment. In a regular inspection, you inspected eight hours of production and found 26 defected computers. Should you approve for shipment? If $P(X \geq 26)$ < 0.05, reject shipment!
-(Hint: You can use both pbinom() or qbinom() functions for this problem.)
+h. Suppose the company only accepts 5% of defective rate to approve for shipment. In a regular inspection, you inspected eight hours of production and found 43 defected computers. Should you approve for shipment? What is the chance you would get 43 or more defects from eight hours of production?
+(Hint: You can use pbinom() functions for this problem.)
 
 ```{r}
 n <- rbinom(1000, 50, 0.05)
@@ -110,7 +110,7 @@ n <- rbinom(1000, 50, 0.05)
 
 # Part c
 
-print("This distriubtion is called ______________ and the shape of the data distribution of the defective computer is ________________")
+print("This distribution is called ______________ and the shape of the data distribution of the defective computer is ________________")
 
 
 # Part d
@@ -131,13 +131,11 @@ print(paste("The probability to find 40 or more defective computers from two day
 # Part g
 
 
-print(paste("There is a 50% chance to find ",  , " defective computers from 8 hours of production."))
+print(paste("There is a 50% chance to find ",  , " or less defective computers from 8 hours of production."))
 
 # Part h
 
 
-print(paste("The probability to find 26 defects from 400 computers is ", ))
 print("The shipment should (be approved / not be approved).")
 
 ```
-

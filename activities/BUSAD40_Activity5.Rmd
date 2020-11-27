@@ -45,7 +45,7 @@ describe(parenthood)
 
 ```
 
-b. Now we find that the dan.sleep is highly correlated with dan.grump, we would like to use the linear regression model to fit the data, in order to estimate the interpretable coefficients.
+b. Now we find that the dan.sleep is highly correlated with dan.grump, we would like to use the linear regression model to fit the data and estimate the interpretable coefficients.
 
 1. Fitting the data by simple regression model. Hint: dan.grump is the dependent variable and dan.sleep is the independent variable.
 2. Print the model summary
@@ -65,7 +65,7 @@ c. Create a fitted line and put together the data and the fitted line in a plot.
 
 ```
 
-d. Interpret the esimtated coefficients $\beta_0$ and $\beta_1$.
+d. Interpret the estimated coefficients $\beta_0$ and $\beta_1$.
 
 Ans: 
 
@@ -79,3 +79,11 @@ f. How much of the variation of dan.grump is explained by the model?  Interpret 
 
 Ans:
 
+g. Use the fitted model to predict dan.grump using the following values.
+
+dan.sleep = 7.2, 8.3, 9.1
+
+```{r}
+# Use the predict function to make prediction with 95% confidence interval
+
+```
